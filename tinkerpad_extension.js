@@ -263,7 +263,7 @@
   }
 
   function digitalRead(pin) {
-    if (!hasCapability(pin, INPUT_PULLUP)) {
+    if (!hasCapability(pin, INPUT)) {
       console.log('ERROR: valid input pins are ' + pinModes[INPUT].join(', '));
       return;
     }
