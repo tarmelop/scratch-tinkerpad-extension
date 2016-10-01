@@ -267,7 +267,7 @@
       console.log('ERROR: valid input pins are ' + pinModes[INPUT].join(', '));
       return;
     }
-    pinMode(pin, INPUT_PULLUP);
+    pinMode(pin, INPUT;
     return (digitalInputData[pin >> 3] >> (pin & 0x07)) & 0x01;
   }
 
